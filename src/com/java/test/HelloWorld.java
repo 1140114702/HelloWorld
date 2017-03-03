@@ -28,12 +28,18 @@ public class HelloWorld {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
 //        if (file.exists()) {
 //            System.out.println(file.getName());
 //            System.out.println(file.length());
 //            System.out.println(file.isHidden());
 //        } else {
+//        try {
+//            file.createNewFile(); //创建文件
 //            System.out.println("文件已创建");
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 //        }
     }
 
